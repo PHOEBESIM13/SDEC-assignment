@@ -32,8 +32,6 @@ iris = pd.read_csv('https://raw.githubusercontent.com/PHOEBESIM13/SDEC-assignmen
 X = iris.drop('species', axis=1)
 Y = iris.species
 
-
-
 clf = RandomForestClassifier()
 clf.fit(X, Y)
 
@@ -42,7 +40,8 @@ prediction_proba = clf.predict_proba(df)
 
 st.subheader('Class labels and their corresponding index number')
 st.write(['Iris-setosa','Iris-versicolor', 'Iris-virginica'])
-
+st.write(pd.Series(['setosa', 'versicolor', 'virginica'])
+         
 st.subheader('Prediction')
 #st.write(iris.target_names[prediction])
 st.write(prediction)
