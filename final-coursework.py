@@ -9,7 +9,7 @@ This app predicts the **Iris flower** type!
 
 st.image("https://cdn.pixabay.com/photo/2020/06/30/14/06/blossom-5356482__480.jpg")
          
-st.sidebar.header('Select Parameters')
+st.sidebar.header('User Input Parameters')
 
 def user_input_features():
     sepal_length = st.sidebar.slider('Sepal length', 4.3, 7.9, 5.4)
