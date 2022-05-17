@@ -7,10 +7,7 @@ st.write("""
 This app predicts the **Iris flower** type!
 """)
 
-from PIL import Image
-image = Image.open('blossomiris.jpg')
-
-st.image(image, caption='Blossom Iris')
+st.image("https://www.istockphoto.com/photo/purple-iris-flowers-gm522740304-91754129")
 
 st.sidebar.header('Select Parameters')
 
