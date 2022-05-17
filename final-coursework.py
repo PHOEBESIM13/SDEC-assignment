@@ -7,6 +7,11 @@ st.write("""
 This app predicts the **Iris flower** type!
 """)
 
+from PIL import Image
+image = Image.open('blossomiris.jpg')
+
+st.image(image, caption='Blossom Iris')
+
 st.sidebar.header('Select Parameters')
 
 def user_input_features():
