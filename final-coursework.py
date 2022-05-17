@@ -7,7 +7,7 @@ st.write("""
 This app predicts the **Iris flower** type!
 """)
 
-st.image("https://www.istockphoto.com/photo/purple-iris-flowers-gm522740304-91754129")
+st.image("https://commons.wikimedia.org/wiki/File:Purple_iris_flower.JPG")
 
 st.sidebar.header('Select Parameters')
 
